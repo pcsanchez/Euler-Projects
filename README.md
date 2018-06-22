@@ -1,2 +1,3 @@
 # Euler Project
-Haber si jala esto
+This repository is dedicated to uploading solutions
+to Euler Programming Problems
