@@ -1,7 +1,6 @@
 //Quick program that shows the sum of all numbers
 //under 1000 that are divisible by 3 or 5
 //Programed by Francisco Carlos Sanchez Ramirez
-//On 6/22/2018
 #include <iostream>
 
 using namespace std;
