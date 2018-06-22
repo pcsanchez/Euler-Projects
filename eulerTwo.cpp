@@ -8,7 +8,7 @@ using namespace std;
 
 int main(){
   int sum = 0;
-  int array[100];
+  int array[40];
   array[0] = 0;
   array[1] = 1;
 
