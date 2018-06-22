@@ -6,14 +6,18 @@
 
 using namespace std;
 
-int fib(int n){
-  if(n <= 1)
-    return n;
-  return fib(n-1)+fib(n-2);
-}
-
 int main(){
-  int n = 10;
-  cout << fib(n);
-  return 0;
+  int sum = 0;
+  int array[100];
+  array[0] = 0;
+  array[1] = 1;
+
+  for(int i = 2;array[i-1]+array[i-2]<=4000000;i++){
+    array[i] = array[i-1]+array[i-2];
+    if(array[i]%2==0)
+    sum+=array[i];
+  }
+
+  cout << sum;
+
 }
