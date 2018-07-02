@@ -16,6 +16,11 @@ Divisibilities that depend on others:
 Independent Divisibilities
 
 3,4,7,8,9,11,13,16,17,19
+
+This means that as long as the number is divisible by all the independent factors the number is diviible by the rest of
+the digits from 1 to 20
+
+In order for the number to be divisible by 10 it has to end in a 0, therefore we just have to iterate over every i+10 values
 */
 
 #include <iostream>
