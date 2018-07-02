@@ -7,17 +7,20 @@ using namespace std;
 
 int main(){
 
-  int answer = 0;
-  int thresh = 0;
+  int sumSquare = 0;
+  int squareSum = 0;
+  int limit = 0;
 
-  for(int i = 1;i <=100;i++){
-    answer+=pow(i,2);
-    thresh+=i;
+  cin >> limit;
+
+  for(int i = 1;i <=limit;i++){
+    sumSquare+=pow(i,2);
+    squareSum+=i;
   }
 
-  thresh *= thresh;
+  squareSum *= squareSum;
 
-  cout << thresh - answer;
+  cout << squareSum - sumSquare;
 
   return 0;
 }
